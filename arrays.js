@@ -4,5 +4,6 @@ function addElementToBeginningofArray(array1, element1) {
 
 }
 function destructivelyAddElementToEndOfArray(array2, element2) {
-  array2.push(element2);
+
+  [element2, ...array2]
 }
